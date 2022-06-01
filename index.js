@@ -24,7 +24,6 @@ const dataBelanjaan = [
 const listBelanjaan = (dataBelanjaan) => {
   return dataBelanjaan.map((item) => `${item.nama} x ${item.kuantitas}`);
 };
-console.log(listBelanjaan());
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const totalBelanjaan = (dataBelanjaan) => {
